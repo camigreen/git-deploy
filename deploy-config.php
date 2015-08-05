@@ -34,6 +34,12 @@ $repos = array(
 		'path' => '/path/to/local/code/',
 		'secret' => ''
 	)*/
+	'ten35' => array(
+		'branch' => 'master',
+		'remote' => 'origin',
+		'path' => '/home/palmeub8/public_html/ten35',
+		'secret' => ''
+	)
 );
 
 /**
