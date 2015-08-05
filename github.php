@@ -33,6 +33,14 @@ class GitHub_Deploy extends Deploy {
 			parent::__construct( $name, $data, $_payload, $headers );
 		}
 	}
+
+	function checkFile() {
+		if file_exists(filename) {
+			echo 'Worked';
+		} else {
+			echo 'Didnt Work';
+		}
+	}
 }
 
 // Starts the deploy attempt.

@@ -38,6 +38,7 @@ $repos = array(
 		'branch' => 'master',
 		'remote' => 'origin',
 		'path' => '/home/palmeub8/public_html/ten35',
+		'post_deploy' => 'checkFile',
 		'secret' => ''
 	)
 );
