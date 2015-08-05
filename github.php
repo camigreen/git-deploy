@@ -35,7 +35,7 @@ class GitHub_Deploy extends Deploy {
 	}
 
 	function checkFile() {
-		if file_exists('../ten35/version.html') {
+		if (file_exists('../ten35/version.html')){
 			echo 'Worked';
 		} else {
 			echo 'Didnt Work';
