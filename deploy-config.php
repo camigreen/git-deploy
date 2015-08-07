@@ -57,7 +57,7 @@ $repos = array(
 		'remote' => 'origin',
 		'path' => '/home/ttopcovers/public_html',
 		'secret' => ''
-	),
+	)
 );
 
 /**
