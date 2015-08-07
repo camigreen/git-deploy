@@ -26,11 +26,12 @@ class GitHub_Deploy extends Deploy {
 		$payload = json_decode( $_payload );
 		$branch = basename( $payload->ref );
 		$name = $payload->repository->name.'-'.$branch;
-		die($name);
 		$commit = substr( $payload->commits[0]->id, 0, 12 );
 		if ( isset( parent::$repos[ $name ] ) && parent::$repos[ $name ]['branch'] === $branch ) {
 			$data = parent::$repos[ $name ];
 			$data['commit'] = $commit;
+			var_dump($data);
+			die('end');
 			parent::__construct( $name, $data, $_payload, $headers );
 		}
 	}
