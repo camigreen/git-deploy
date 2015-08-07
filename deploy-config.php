@@ -52,7 +52,7 @@ $repos = array(
 		'path' => '/home/palmeub8/public_html/dev/ttop',
 		'secret' => ''
 	),
-	"ttop-pending" => array(
+	"ttop" => array(
 		'branch' => 'master',
 		'remote' => 'origin',
 		'path' => '/home/ttopcovers/public_html',
