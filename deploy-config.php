@@ -46,13 +46,13 @@ $repos = array(
 		'path' => '/home/palmeub8/public_html/deploy',
 		'secret' => ''
 	),
-	"ttop" => array(
+	"ttop-dev" => array(
 		'branch' => 'dev',
 		'remote' => 'origin',
 		'path' => '/home/palmeub8/public_html/dev/ttop',
 		'secret' => ''
 	),
-	"ttop" => array(
+	"ttop-master" => array(
 		'branch' => 'master',
 		'remote' => 'origin',
 		'path' => '/home/ttopcovers/public_html',
