@@ -61,13 +61,13 @@ $repos = array(
 	"store-master" => array(
 		'branch' => 'master',
 		'remote' => 'origin',
-		'path' => '/home/ttopcovers/public_html/media/applications/store',
+		'path' => '/home/ttopcovers/public_html/media/zoo/applications/store',
 		'secret' => ''
 	),
 	"store-dev" => array(
 		'branch' => 'dev',
 		'remote' => 'origin',
-		'path' => '/home/palmeub8/public_html/dev/ttop/media/applications/store',
+		'path' => '/home/palmeub8/public_html/dev/ttop/media/zoo/applications/store',
 		'secret' => ''
 	)
 );
