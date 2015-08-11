@@ -34,40 +34,22 @@ $repos = array(
 		'path' => '/path/to/local/code/',
 		'secret' => ''
 	)*/
-	'ten35' => array(
-		'branch' => 'master',
-		'remote' => 'origin',
-		'path' => '/home/palmeub8/public_html/ten35',
-		'secret' => ''
-	),
 	"git-deploy" => array(
-		'branch' => 'master',
+		'branch' => 'ttop',
 		'remote' => 'origin',
-		'path' => '/home/palmeub8/public_html/deploy',
+		'path' => '/home/ttopcovers/public_html/deploy',
 		'secret' => ''
 	),
-	"ttop-dev" => array(
-		'branch' => 'dev',
-		'remote' => 'origin',
-		'path' => '/home/palmeub8/public_html/dev/ttop',
-		'secret' => ''
-	),
-	"ttop-master" => array(
+	"ttop" => array(
 		'branch' => 'master',
 		'remote' => 'origin',
 		'path' => '/home/ttopcovers/public_html',
 		'secret' => ''
 	),
-	"store-master" => array(
+	"store" => array(
 		'branch' => 'master',
 		'remote' => 'origin',
 		'path' => '/home/ttopcovers/public_html/media/zoo/applications/store',
-		'secret' => ''
-	),
-	"store-dev" => array(
-		'branch' => 'dev',
-		'remote' => 'origin',
-		'path' => '/home/palmeub8/public_html/dev/ttop/media/zoo/applications/store',
 		'secret' => ''
 	)
 );
