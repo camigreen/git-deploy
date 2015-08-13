@@ -53,7 +53,7 @@ $repos = array(
 		'secret' => ''
 	),
 	"store" => array(
-		'branch' => 'dev',
+		'branch' => 'pdf',
 		'remote' => 'origin',
 		'path' => '/home/palmeub8/public_html/dev/ttop/media/zoo/applications/store',
 		'secret' => ''
