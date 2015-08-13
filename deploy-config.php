@@ -47,7 +47,7 @@ $repos = array(
 		'secret' => ''
 	),
 	"store" => array(
-		'branch' => 'master',
+		'branch' => '1.0.0',
 		'remote' => 'origin',
 		'path' => '/home/ttopcovers/public_html/media/zoo/applications/store',
 		'secret' => ''
